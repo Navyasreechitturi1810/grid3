@@ -1,0 +1,51 @@
+body{
+    background: rgb(2,0,36);
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(210,31,116,1) 89%);
+}
+#form{
+    height: 60vh;
+    width: 40vw;
+    background-color: white;
+    position: relative;
+    left:30vw;
+    top: 15vh;  
+    
+
+
+}
+#main{
+    display: flex;
+}
+.child1{
+    width: 20vw;
+    position: relative;
+    left: 60px;
+    
+}
+.child2{
+    width: 20vw;
+
+}
+select{
+    width: 70%;
+}
+button{
+    background-color: rgb(71, 71, 208);
+    color: white;
+    height: 30px;
+    width: 100px;
+}
+input{
+    box-shadow: 1px 1px 1px white;
+    background-color: rgb(253, 249, 249);
+    
+}
+#submit{
+    position: relative;
+    left: 60px;
+}
+p{
+    position: relative;
+    left: 60px;
+    top:40px;
+}
